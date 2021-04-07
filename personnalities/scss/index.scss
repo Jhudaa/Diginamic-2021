@@ -1,0 +1,73 @@
+// Import de mes propres fichiers scss - Doit être importer avant bootstrat
+@import "./variable.scss" ;
+
+// importe des fichiers scss de bootstrap
+@import "./../bootstrap/scss/bootstrap.scss" ;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+header {
+  nav {
+    margin : 15px;
+  }
+  li {
+    margin : 10px
+  }
+}
+
+header {
+  header {
+    position: fixed;
+  }
+}
+
+body { // pourquoi il réapparait ?
+  section.card-title.i {
+    display: none;
+  }
+
+  section.card-title.i:hover {
+    display: yes; // à travailler !!
+  }
+}
+
+footer {
+
+  .container {
+    margin-top: 10em;
+  }
+  .nav-link {
+    color : #49989A
+  }
+  .nav-link:hover {
+    border-bottom: 1px solid #49989A;
+  }
+}
+
+.fa-facebook-square {
+  color: #4867AA;
+}
+
+.fa-instagram {
+  color : #CB37A7;
+}
+
+.fa-twitter {
+  color: #4A5F9E;
+}
+
+.card:hover {
+  border-color: #49989A ;
+}
+
+.login:hover {
+   border-bottom: 1px solid #696F80;
+}
+
+@media (max-width: 1200px) {
+  #test {
+    width: 20%; // Pourquoi ne fonctionne pas ?
+  }
+}
+// @media 991 menu sous forme de burger + 2 cards par colonne avec alignement vertical et sous menu bascule en bas
+
+// div.card-body>h3.card-title{Personal Growth}+p.card-text{Get advice and tips on everything from emotional intelligence to creating fulfilling relationships}+div.d-flex.justify-content-center.align-items-center.justify-content-around>(p.mr-2>i.fas)*3

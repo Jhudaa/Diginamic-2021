@@ -1,0 +1,26 @@
+.hidden {
+  display: none; }
+
+header {
+  display: flex; }
+  header ul {
+    display: flex; }
+  header li {
+    padding: 1.6rem 2rem 0.3rem; }
+  header i {
+    color: #ACCF26;
+    margin: 0.6em; }
+  header .select {
+    border-bottom: 2px solid #ACCF26; }
+
+main {
+  display: flex;
+  justify-content: center; }
+  main section {
+    width: 50%;
+    margin: auto; }
+  main #cross {
+    border-radius: 10px;
+    margin-left: 5rem; }
+
+/*# sourceMappingURL=style.css.map */

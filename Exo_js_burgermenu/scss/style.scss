@@ -1,0 +1,43 @@
+.hidden {
+  display: none;
+}
+
+header {
+  display: flex;
+
+  ul {
+    display: flex;
+  }
+  
+  li {
+    padding: 1.6rem 2rem 0.3rem;
+  }
+
+  i {
+    color: #ACCF26;
+    margin: 0.6em;
+  }
+
+  .select {
+    border-bottom: 2px solid #ACCF26;
+  }
+}
+
+main {
+  
+  display: flex;
+  justify-content: center;
+
+  section {
+    width: 50%;
+    margin: auto;
+  }
+
+  #cross {
+    border-radius: 10px;
+    margin-left: 5rem;
+  }
+}
+
+
+
